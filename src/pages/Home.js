@@ -21,17 +21,25 @@ const Home = (handleClick) => {
           This is where you can endaulge your body with many drinks such as
           coffee, coffee, coffee drinks in this store are the best.
           <br />
-          <h2>Contact information X@gmail.com</h2>
-          <h2>Phone number 999999</h2>
           <div>
             <br />
             <br />
-            <h2> Best Sellers:</h2>
+            <h2> Best deals by1 get 1</h2>
             <section>
               {list.map((item) => (
                 <Cards key={item.id} item={item} handleClick={handleClick} />
               ))}
             </section>
+
+            <p>
+              Address: Jl. H. Lebar Kav. 56 No. 22, Meruya Utara, Kembangan,
+              RT.3/RW.10, Meruya Utara, Kec. Kembangan, Kota Jakarta Barat,
+              Daerah Khusus Ibukota Jakarta 11620
+            </p>
+            <p>Contact information X@gmail.com</p>
+            <p>Phone number 999999</p>
+            <p>Instagram MRX Coffee</p>
+            <button> instagram link</button>
           </div>
         </div>
       </div>
