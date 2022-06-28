@@ -1,0 +1,20 @@
+h1 {
+  color: #ffffff;
+  font-size: 75px;
+}
+
+span {
+  color: #ffffff;
+  font-size: 40px;
+  text-align: right;
+}
+
+.main {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  background-color: #000000;
+  background-size: cover;
+  opacity: 0.93;
+  height: 100%;
+}
